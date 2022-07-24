@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Final Project</title>
+  <!--Link to font awesome -->
+  <script src="https://kit.fontawesome.com/d3e1f8ffba.js" crossorigin="anonymous"></script>
+   <!--Link to style page-->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!--Navigation section start here-->
+  <nav>
+    <div class="container nav_container">
+      <!-- Navigation section Logo-->
+      <a href="index.html">
+        <h4 class="logo">Yog Studio</h4>
+      </a>
+      <!--Navigation section links-->
+      <ul class="nav_menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="logIn.html">Log In</a></li>
+         <!--open and close button on mobile and ipad-->
+      </ul>
+      <button id="open_menu"><i class="fa-solid fa-bars"></i></button>
+      <button id="close_menu"><i class="fa-solid fa-xmark"></i></button>
+     
+     
+    </div>
+  </nav>
+<!--fORM Section-->
+  <section>
+    <form id="form">
+      <!--fORM Section login with social icon-->
+      <div class="social">
+          <div class="title">Get started</div>
+          <div class="question">
+              Already have an account<br>
+              <span>Sign In</span>
+          </div>
+               <!--fORM Section login with google-->
+          <div class="buton">
+              <div class="btn-1">
+                <a href="#"><img src="https://img.icons8.com/color/30/000000/google-logo.png" /></a>
+                 Sign Up
+              </div>
+               <!--fORM Section login with google-->
+              <div class="btn-2">
+                <a href="#"><img src="https://img.icons8.com/ios-filled/30/ffffff/facebook-new.png" /></a>
+                 Sign Up
+               </div>
+            </div>
+             <!--fORM Section login with -->
+          <div class="or">Or</div>
+      </div>
+      
+       <!-- /** 
+         * ! user name Input
+         **/ -->
+      <div>
+      <!-- first name label-->
+        <label for="userFirstname">First Name</label>
+            <!-- man icon-->
+        <i class="fa-solid fa-user"></i>
+        <!-- first name input-->
+        <input type="text" name="userFirstName" id="userFirstName" placeholder = "Usha " />
+              <!--success and failure icon-->
+        <i class="fa-solid fa-circle-exclamation failure-icon"></i>
+        <i class="fa-solid fa-circle-check success-icon"></i>
+           <!-- error message-->
+        <div class="error"></div>
+      </div>
+       <!-- /** 
+         * ! user Last Input
+         **/ -->
+      <div>
+        <!-- last name label-->
+          <label for="userLastname">Last Name</label>
+          <i class="fa-solid fa-user"></i>
+              <!-- last name input-->
+          <input type="text" name="userLastName" id="userLastName" placeholder = "Kumari " />
+              <!--success and failure icon-->
+          <i class="fa-solid fa-circle-exclamation failure-icon"></i>
+          <i class="fa-solid fa-circle-check success-icon"></i>
+              <!-- error message-->
+          <div class="error"></div>
+        </div>
+      <!-- /** 
+         * ! Email Input
+         **/ -->
+      <div>
+         <!-- email label-->
+        <label for="email">Email</label>
+          <!-- email icon-->
+        <i class="fa-solid fa-envelope"></i>
+         <!-- email input-->
+        <input type="email" name="email" id="email" placeholder = "xyz@gmail.com"/>
+         <!--success and failure icon-->
+        <i class="fa-solid fa-circle-exclamation failure-icon"></i>
+        <i class="fa-solid fa-circle-check success-icon"></i>
+         <!-- error message-->
+        <div class="error"></div>
+      </div>
+
+      <!-- /** 
+         * ! Password Input
+         **/ -->
+      <div>
+           <!-- password label-->
+        <label for="password">Password</label>
+          <!-- password icon-->
+        <i class="fa-solid fa-lock"></i>
+        <input type="password" name="password" id="password" placeholder = "password"/>
+           <!--success and failure icon-->
+        <i class="fa-solid fa-circle-exclamation failure-icon"></i>
+        <i class="fa-solid fa-circle-check success-icon"></i>
+         <!-- error message-->
+        <div class="error"></div>
+      </div>
+        <!-- Submit button-->
+      <button type="submit" id = "submit" class = "btn btn_primary">Submit</button>
+    </form>
+  </section>
+
+  <!-- form section  ends here-->
+
+
+
+
+
+
+
+
+    <!-- footer section  starts here-->
+    <footer>
+        <div class="container container_footer">
+          <!--FOOTER BOX_2-->
+          <div class="footer_1">
+            <!--FOOTER logo-->
+            <a href="index.html" class="footer_logo">
+              <h4>Yoga Studio</h4>
+            </a>
+            <!--FOOTER description text-->
+            <p>Basically yoga has been started thousand years ago before the religin and belief system were born in the whole world. </p>
+          </div>
+          <!--FOOTER BOX_2-->
+          <div class="footer_2">
+            <!--FOOTER BOX_2 title-->
+            <h4>Premalinks</h4>
+            <!--FOOTER BOX_2 title-->
+            <ul class="premalinks">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="courses.html">Courses</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+    
+          </div>
+    
+          <!--FOOTER BOX_3-->
+          <div class="footer_3">
+            <!--FOOTER BOX_3 title-->
+            <h4>Privacy</h4>
+            <!--FOOTER BOX_3 title-->
+            <ul class="Privacy">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms and conditions</a></li>
+              <li><a href="#">Refund Policy</a></li>
+            </ul>
+          </div>
+    
+          <!--FOOTER BOX_4-->
+          <div class="footer_4">
+            <!--FOOTER BOX_4 title-->
+            <h4>Contact Us</h4>
+            <!--FOOTER BOX_4 title-->
+            <div>
+              <p>004673821</p>
+              <p>xyz@gmail.com</p>
+            </div>
+            <!--FOOTER BOX_4 social-->
+            <ul class="footer_social">
+              <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+    
+    
+            </ul>
+    
+          </div>
+        </div>
+        <!--FOOTER copyright-->
+        <div class="footer_copyright">
+          <p>copyright &copy; Usha kumari</p>
+        </div>
+      </footer>
+    
+    
+    
+    
+      <!--Link to Javascript page-->
+    
+      <script src="script.js"></script>
+     
+    </body>
+    
+    </html>
