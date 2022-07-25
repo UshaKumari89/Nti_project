@@ -1,216 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Final Project</title>
-    <!--Link to font awesome -->
-    <script
-      src="https://kit.fontawesome.com/d3e1f8ffba.js"
-      crossorigin="anonymous"
-    ></script>
-    <!--Link to style page-->
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
-    <!--Navigation section start here-->
-    <nav>
-      <div class="container nav_container">
-        <!-- Navigation section Logo-->
-        <a href="index.html">
-          <h4 class="logo">Yog Studio</h4>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Final Project</title>
+  <!--Link to font awesome -->
+  <script src="https://kit.fontawesome.com/d3e1f8ffba.js" crossorigin="anonymous"></script>
+  <!--Link to style page-->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!--Navigation section start here-->
+  <nav>
+    <div class="container nav_container">
+      <!-- Navigation section Logo-->
+      <a href="index.html">
+        <h4 class="logo">Yog Studio</h4>
+      </a>
+      <!--Navigation section links-->
+      <ul class="nav_menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="login.html">Courses</a></li>
+        <li><a href="about.html">About</a></li>
+        <!-- <li><a href="logIn.html">Log In</a></li> -->
+        <li><a href="login.html">Log In</a></li>
+        <!--open and close button on mobile and ipad-->
+      </ul>
+      <button id="open_menu"><i class="fa-solid fa-bars"></i></button>
+      <button id="close_menu" class="hide"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+  </nav>
+  <!--Navigation section end here-->
+
+  <!--About section start here-->
+  <main class="about_us">
+    <!--About section main container-->
+    <div class="container about_us_container">
+      <!--About section left side-->
+      <div class="about_left">
+        <!--About section left side image-->
+        <img src="images/about/header.jpg" alt="" />
+      </div>
+      <!--About section right side-->
+      <div class="about_right">
+        <!--About section right side title-->
+        <h3>About us</h3>
+        <!--About section right side description-->
+        <p>
+          Yog studio is offering services since 2008 in Sweden. Its was first open in
+          Stockholm but now we have 6 branches in differnt parts of Sweden and 14 branches in
+          Different Scandinavian countries.
+        </p>
+        <!--About section right side list itmes in unordered list-->
+        <ul>
+          <li>Money back within 30 days if you are not satisfied!</li>
+          <li>Full access for all future</li>
+          <li>Free updates of all program material</li>
+          <li>Works on any screen</li>
+        </ul>
+        <!--About section right side button to go on home page-->
+        <a href="index.html" class="btn btn-primary">Start Here</a>
+      </div>
+    </div>
+  </main>
+  <!--About section end here-->
+
+  <!--our team section starts here-->
+  <section class="team">
+    <h2>Our Team</h2>
+    <!--our team section main continer-->
+    <div class="container container_team">
+      <!--our team section main cards-->
+      <article class="team_cards">
+        <!--our team section indivdual card-->
+        <div class="team_card">
+          <!--our team section pic-->
+          <img src="images/about/image_1.jpg" alt="Jane" />
+          <!--our team section information-->
+          <div class="team_info">
+            <!--our team section heading-->
+            <h4>Jane Doe</h4>
+            <!--our team section experties-->
+            <h6>CEO & Founder</h6>
+            <!--our team section paragraph-->
+            <p>Im a expert and coach of your yoga classes.</p>
+            <!--our team section email-->
+            <a href="#">doe@gmail.com</a>
+            <button class="btn btn-primary">Contact</button>
+          </div>
+        </div>
+      </article>
+      <!--our team section main cards-->
+      <article class="team_cards">
+        <!--our team section indivdual card-->
+        <div class="team_card">
+          <!--our team section pic-->
+          <img src="images/about/image_2.jpg" alt="Jane" />
+          <!--our team section information-->
+          <div class="team_info">
+            <!--our team section heading-->
+            <h4>Peter carl</h4>
+            <!--our team section experties-->
+            <h6>Partner and Co-Owner</h6>
+            <!--our team section paragraph-->
+            <p>Im a partner and co-owner of Yog Studio.</p>
+            <!--our team section email-->
+            <a href="#">Peter@gmail.com</a>
+            <button class="btn btn-primary">Contact</button>
+          </div>
+        </div>
+      </article>
+      <!--our team section main cards-->
+      <article class="team_cards">
+        <!--our team section indivdual card-->
+        <div class="team_card">
+          <!--our team section pic-->
+          <img src="images/about/image_3.jpg" alt="Jane" />
+          <!--our team section information-->
+          <div class="team_info">
+            <!--our team section heading-->
+            <h4>Zainya</h4>
+            <!--our team section experties-->
+            <h6>CEO & Partner</h6>
+            <!--our team section paragraph-->
+            <p>Im a your teacher and the co-owner of Yog Studio.</p>
+            <!--our team section email-->
+            <a href="#">zainya@gmail.com</a>
+            <button class="btn btn-primary">Contact</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+  <!--our team section end here-->
+  
+  <!-- footer section  starts here-->
+  <footer>
+    <div class="container container_footer">
+      <!--FOOTER BOX_2-->
+      <div class="footer_1">
+        <!--FOOTER logo-->
+        <a href="index.html" class="footer_logo">
+          <h4>Yoga Studio</h4>
         </a>
-        <!--Navigation section links-->
-        <ul class="nav_menu">
+        <!--FOOTER description text-->
+        <p>
+          Basically yoga has been started thousand years ago before the
+          religin and belief system were born in the whole world.
+        </p>
+      </div>
+      <!--FOOTER BOX_2-->
+      <div class="footer_2">
+        <!--FOOTER BOX_2 title-->
+        <h4>Premalinks</h4>
+        <!--FOOTER BOX_2 title-->
+        <ul class="premalinks">
           <li><a href="index.html">Home</a></li>
           <li><a href="courses.html">Courses</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="logIn.html">Log In</a></li>
-          <!--open and close button on mobile and ipad-->
+          <li><a href="contact.html">Contact</a></li>
         </ul>
-        <button id="open_menu"><i class="fa-solid fa-bars"></i></button>
-        <button id="close_menu"><i class="fa-solid fa-xmark"></i></button>
       </div>
-    </nav>
-    <!--Navigation section end here-->
 
-    <!--About section start here-->
-    <main class="about_us">
-      <!--About section main container-->
-      <div class="container about_us_container">
-        <!--About section left side-->
-        <div class="about_left">
-          <!--About section left side image-->
-          <img src="images/about/header.jpg" alt="" />
-        </div>
-        <!--About section right side-->
-        <div class="about_right">
-          <!--About section right side title-->
-          <h3>About us</h3>
-          <!--About section right side description-->
-          <p>
-            Yog studio is offering services since 2008 in Sweden. Its was first open in 
-            Stockholm but now we have 6 branches in differnt parts of Sweden and 14 branches in 
-            Different Scandinavian countries.
-          </p>
-          <!--About section right side list itmes in unordered list-->
-          <ul>
-            <li>Money back within 30 days if you are not satisfied!</li>
-            <li>Full access for all future</li>
-            <li>Free updates of all program material</li>
-            <li>Works on any screen</li>
-          </ul>
-          <!--About section right side button to go on home page-->
-          <a href="index.html" class="btn btn-primary">Start Here</a>
-        </div>
+      <!--FOOTER BOX_3-->
+      <div class="footer_3">
+        <!--FOOTER BOX_3 title-->
+        <h4>Privacy</h4>
+        <!--FOOTER BOX_3 title-->
+        <ul class="Privacy">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms and conditions</a></li>
+          <li><a href="#">Refund Policy</a></li>
+        </ul>
       </div>
-    </main>
-    <!--About section end here-->
 
-    <!--our team section starts here-->
-    <section class="team">
-      <h2>Our Team</h2>
-      <!--our team section main continer-->
-      <div class="container container_team">
-        <!--our team section main cards-->
-        <article class="team_cards">
-          <!--our team section indivdual card-->
-          <div class="team_card">
-            <!--our team section pic-->
-            <img src="images/about/image_1.jpg" alt="Jane" />
-            <!--our team section information-->
-            <div class="team_info">
-              <!--our team section heading-->
-              <h4>Jane Doe</h4>
-              <!--our team section experties-->
-              <h6>CEO & Founder</h6>
-              <!--our team section paragraph-->
-              <p>Im a expert and coach of your yoga classes.</p>
-              <!--our team section email-->
-              <a href="#">doe@gmail.com</a>
-              <button class="btn btn-primary">Contact</button>
-            </div>
-          </div>
-        </article>
-        <!--our team section main cards-->
-        <article class="team_cards">
-          <!--our team section indivdual card-->
-          <div class="team_card">
-            <!--our team section pic-->
-            <img src="images/about/image_2.jpg" alt="Jane" />
-            <!--our team section information-->
-            <div class="team_info">
-              <!--our team section heading-->
-              <h4>Peter carl</h4>
-              <!--our team section experties-->
-              <h6>Partner and Co-Owner</h6>
-              <!--our team section paragraph-->
-              <p>Im a partner and co-owner of Yog Studio.</p>
-              <!--our team section email-->
-              <a href="#">Peter@gmail.com</a>
-              <button class="btn btn-primary">Contact</button>
-            </div>
-          </div>
-        </article>
-        <!--our team section main cards-->
-        <article class="team_cards">
-          <!--our team section indivdual card-->
-          <div class="team_card">
-            <!--our team section pic-->
-            <img src="images/about/image_3.jpg" alt="Jane" />
-            <!--our team section information-->
-            <div class="team_info">
-              <!--our team section heading-->
-              <h4>Zainya</h4>
-              <!--our team section experties-->
-              <h6>CEO & Partner</h6>
-              <!--our team section paragraph-->
-              <p>Im a your teacher and the co-owner of Yog Studio.</p>
-              <!--our team section email-->
-              <a href="#">zainya@gmail.com</a>
-              <button class="btn btn-primary">Contact</button>
-            </div>
-          </div>
-        </article>
+      <!--FOOTER BOX_4-->
+      <div class="footer_4">
+        <!--FOOTER BOX_4 title-->
+        <h4>Contact Us</h4>
+        <!--FOOTER BOX_4 title-->
+        <div>
+          <p>004673821</p>
+          <p>xyz@gmail.com</p>
+        </div>
+        <!--FOOTER BOX_4 social-->
+        <ul class="footer_social">
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </li>
+        </ul>
       </div>
-    </section>
-    <!--our team section end here-->
-    <!-- footer section  starts here-->
-    <footer>
-      <div class="container container_footer">
-        <!--FOOTER BOX_2-->
-        <div class="footer_1">
-          <!--FOOTER logo-->
-          <a href="index.html" class="footer_logo">
-            <h4>Yoga Studio</h4>
-          </a>
-          <!--FOOTER description text-->
-          <p>
-            Basically yoga has been started thousand years ago before the
-            religin and belief system were born in the whole world.
-          </p>
-        </div>
-        <!--FOOTER BOX_2-->
-        <div class="footer_2">
-          <!--FOOTER BOX_2 title-->
-          <h4>Premalinks</h4>
-          <!--FOOTER BOX_2 title-->
-          <ul class="premalinks">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="courses.html">Courses</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
+    </div>
+    <!--FOOTER copyright-->
+    <div class="footer_copyright">
+      <p>copyright &copy; Usha kumari</p>
+    </div>
+  </footer>
+  <!-- footer section end here-->
 
-        <!--FOOTER BOX_3-->
-        <div class="footer_3">
-          <!--FOOTER BOX_3 title-->
-          <h4>Privacy</h4>
-          <!--FOOTER BOX_3 title-->
-          <ul class="Privacy">
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms and conditions</a></li>
-            <li><a href="#">Refund Policy</a></li>
-          </ul>
-        </div>
+  <!--Link to Javascript page-->
+  <script src="script.js"></script>
+</body>
 
-        <!--FOOTER BOX_4-->
-        <div class="footer_4">
-          <!--FOOTER BOX_4 title-->
-          <h4>Contact Us</h4>
-          <!--FOOTER BOX_4 title-->
-          <div>
-            <p>004673821</p>
-            <p>xyz@gmail.com</p>
-          </div>
-          <!--FOOTER BOX_4 social-->
-          <ul class="footer_social">
-            <li>
-              <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa-brands fa-youtube"></i></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <!--FOOTER copyright-->
-      <div class="footer_copyright">
-        <p>copyright &copy; Usha kumari</p>
-      </div>
-    </footer>
-    <!-- footer section end here-->
-
-    <!--Link to Javascript page-->
-    <script src="script.js"></script>
-  </body>
 </html>
